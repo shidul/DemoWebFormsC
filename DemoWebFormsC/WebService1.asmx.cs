@@ -29,14 +29,14 @@ namespace DemoWebFormsC
         [ScriptMethod(ResponseFormat=ResponseFormat.Json)]
         public List<Employee> getEmployee()
         {
-            var abc= new List<Employee>
+            var abcd= new List<Employee>
             {
                 new Employee { empId = 1, empName = "scott", mobile = "0188" },
                 new Employee { empId = 1, empName = "scott", mobile = "0188" },
                 new Employee { empId = 1, empName = "scott", mobile = "0188" }
             };
 
-            return abc;
+            return abcd;
 
 
         }
